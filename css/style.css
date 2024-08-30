@@ -8166,6 +8166,7 @@ h1, h2, h3, h4, h5,
 
 .owl-carousel {
   position: relative;
+  touchdrag: pan-y;
   }
   .owl-carousel .owl-item {
     opacity: .4; }
