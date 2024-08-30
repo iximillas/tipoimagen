@@ -8169,9 +8169,15 @@ h1, h2, h3, h4, h5,
   touch-action: pan-y;
   }
   .owl-carousel .owl-item {
+    touch-action: pan-y;
     opacity: .4; }
     .owl-carousel .owl-item.active {
       opacity: 1; }
+      
+      .owl-carousel.owl-drag .owl-item {
+    	-ms-touch-action: pan-y;
+    	touch-action: pan-y;
+    }
   .owl-carousel .owl-nav {
     position: absolute;
     top: 50%;
