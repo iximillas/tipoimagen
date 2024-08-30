@@ -7973,7 +7973,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #8b94a3 !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -8165,7 +8165,9 @@ h1, h2, h3, h4, h5,
             color: #fff; }
 
 .owl-carousel {
-  position: relative; }
+  position: relative;
+      touch-action: pan-y;
+  }
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
